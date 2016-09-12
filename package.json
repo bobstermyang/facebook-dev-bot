@@ -1,0 +1,26 @@
+{
+  "name": "facebook-dev-bot",
+  "version": "1.0.0",
+  "description": "Facebook Messenger Bot",
+  "main": "app.js",
+  "scripts": {
+    "start": "node demo.js",
+    "lint": "jshint --exclude node_modules ."
+  },
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/bobstermyang/facebook-dev-bot"
+  },
+  "author": "Bobby Yang",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "config": "^1.20.4",
+    "ejs": "^2.4.2",
+    "express": "^4.13.4",
+    "request": "^2.72.0"
+  },
+  "engines": {
+    "node": "~4.1.2"
+  }
+}
